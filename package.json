@@ -1,6 +1,6 @@
 {
   "name": "atm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An ATM using typescript, nodeJS ,inquirer.",
   "main": "index.js",
   "type": "module",
