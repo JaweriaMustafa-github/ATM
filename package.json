@@ -4,9 +4,8 @@
   "description": "An ATM using typescript, nodeJS ,inquirer.",
   "main": "index.js",
   "type": "module",
-  "bin" : {
-    "cli-based-atm": "index.js"
-  },
+  "bin" :  "index.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
