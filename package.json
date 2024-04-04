@@ -1,5 +1,5 @@
 {
-  "name": "atm",
+  "name": "cli-based-atm-1",
   "version": "1.0.1",
   "description": "An ATM using typescript, nodeJS ,inquirer.",
   "main": "index.js",
