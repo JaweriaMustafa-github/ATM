@@ -6,6 +6,7 @@ let myBalance = 10000; //Dollar;
 let myPin = 1234;
 
 console.log(`Your total balance is : ${myBalance}`);
+console.log(`Your pin code is ${1234}`);
 
 let pinAnswer = await inquirer.prompt(
     [
