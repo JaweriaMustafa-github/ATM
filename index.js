@@ -48,14 +48,14 @@ if (pinAnswer.pin === myPin) {
                 choices: ["2500", "5000", "7500", "10000"]
             }
         ]);
-        if (fastcashAmountAns.fastcashAmount > myBalance) {
-            console.log("Insufficient Amount!!!");
-        }
-        //  = , -= , += : ASSIGNMENT OPERATORS;
-        else {
-            let amountLeft = myBalance - fastcashAmountAns.amount;
-            console.log(`The Remaining balance is: ${amountLeft}`);
+        if (myBalance - fastcashAmountAns.fastcashAmount) {
+            let leftAmount = myBalance - fastcashAmountAns.fastcashAmount;
+            console.log(`The remaining balance is ${leftAmount}`);
             console.log("Thank You!");
+        }
+        else {
+            fastcashAmountAns.fastcashAmount > myBalance;
+            console.log(`insufficient amount!`);
         }
     }
     else if (operationAns.operation === "check balance") {
