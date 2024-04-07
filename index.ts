@@ -49,7 +49,7 @@ if (operationAns.operation === "withdraw" ) {
       //  = , -= , += : ASSIGNMENT OPERATORS;
         else{
             let amountLeft = myBalance - amountAns.amount;
-         console.log(`The Remaining balance is: ${ amountLeft}`);
+         console.log(`The Remaining balance is: ${amountLeft}`);
          console.log("Thank You!");
         }
 
@@ -66,14 +66,14 @@ if (operationAns.operation === "withdraw" ) {
         ]
      );
 if (fastcashAmountAns.fastcashAmount > myBalance) {
-    console.log("Insufficient Amount!!!");
+    console.log("insufficient amount!");
 }
  //  = , -= , += : ASSIGNMENT OPERATORS;
 else{
-    let amountLeft = myBalance - fastcashAmountAns.amount;
- console.log(`The Remaining balance is: ${ amountLeft}`);
+    let leftAmount = myBalance - fastcashAmountAns.amount;
+ console.log(`The Remaining balance is: ${leftAmount}`);
  console.log("Thank You!");
-}
+};
 
 }
 else if (operationAns.operation === "check balance"){
