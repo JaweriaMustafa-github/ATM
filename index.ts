@@ -70,7 +70,7 @@ if (fastcashAmountAns.fastcashAmount > myBalance) {
 }
  //  = , -= , += : ASSIGNMENT OPERATORS;
 else{
-    let leftAmount = myBalance - fastcashAmountAns.amount;
+    let leftAmount = myBalance - fastcashAmountAns.fastcashAmount;
  console.log(`The Remaining balance is: ${leftAmount}`);
  console.log("Thank You!");
 };
